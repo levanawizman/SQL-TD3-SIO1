@@ -41,7 +41,6 @@ Les jointures SQL permettent de lier les données de plusieurs tables sur la bas
 - **INNER JOIN** : Ne conserve que les correspondances entre les deux tables.
 - **LEFT JOIN** : Conserve toutes les lignes de la table de gauche, même si elles n'ont pas de correspondance.
 - **RIGHT JOIN** : Conserve toutes les lignes de la table de droite, même si elles n'ont pas de correspondance.
-- **FULL OUTER JOIN** : Conserve toutes les lignes des deux tables, qu'il y ait correspondance ou non.
 
 ### Mise en application
 
