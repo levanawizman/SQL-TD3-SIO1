@@ -21,7 +21,7 @@ Une clé étrangère (FOREIGN KEY) établit un lien entre deux tables. Elle corr
 ### Exemple
 ```sql
 CREATE TABLE Inscription (
-    id_inscription INT PRIMARY KEY,
+    id_inscription INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     id_etudiant INT,
     id_cours INT,
     FOREIGN KEY (id_etudiant) REFERENCES Etudiant(id_etudiant),
