@@ -24,7 +24,8 @@ CREATE TABLE Inscription (
     id_inscription INT PRIMARY KEY,
     id_etudiant INT,
     id_cours INT,
-    FOREIGN KEY (id_etudiant) REFERENCES Etudiant(id_etudiant)
+    FOREIGN KEY (id_etudiant) REFERENCES Etudiant(id_etudiant),
+    FOREIGN KEY (id_cours) REFERENCES Cours(id_cours)
 );
 ```
 
